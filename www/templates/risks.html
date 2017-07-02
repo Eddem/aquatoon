@@ -1,0 +1,16 @@
+<ion-view view-title="Risico's">
+    <ion-content ng-app="starter" ng-controller="FeedCtrl" ng-class=" {expanded:$scope.isExpanded}">
+
+                <button class="hiddenbutton button button-icon ion-plus" ng-click="addItem()">
+        </button>
+        <div class="list">
+            <ion ng-repeat="item in items">
+            <a class="item item-avatar">
+                <img src="https://onurr.nl/upload/Untitled-2.png">
+                <h2 class="reeree">{{item.feed}}</h2>
+                <p>{{item.time}}</p>
+            </a>
+            </ion>
+        </div>
+    </ion-content>
+</ion-view>

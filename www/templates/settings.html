@@ -1,0 +1,54 @@
+<ion-view view-title="Instellingen">
+    <ion-content class="animated fadeInLeft" >
+        <ion-list>
+            <a class="item">
+                Naam
+                <span class="item-note">
+            Suzanne Van Houten
+          </span>
+            </a>
+            <a class="item">
+                Klant nummer
+                <span class="item-note">
+            3434870
+          </span>
+            </a>
+            <a class="item">
+                Postcode
+                <span class="item-note">
+            3311CR
+          </span>
+            </a>
+            <a class="item">
+                Aquatoon Sensor Serienummer
+                <span class="item-note">
+            AT0139836
+          </span>
+            </a>
+            <a class="item">
+                Aquatoon Sensor Status
+                <span class="item-note">
+            Verbonden
+          </span>
+            </a>
+                <label class="item item-input item-select">
+                    <div class="input-label">
+                        Accountstype
+                    </div>
+                    <select>
+                        <option>Verwachtingen</option>
+                        <option selected>Uitgebreid</option>
+                        <option>Bodemkwaliteit</option>
+                        <option>Grondwaterpeil</option>
+                        <option>Risico's</option>
+                    </select>
+                </label>
+            <ion-toggle  ng-model="settings.enableDangerNotifications">
+                Meldingen gevaarlijke situaties
+            </ion-toggle>
+            <ion-toggle  ng-model="settings.enableElectricityNotification">
+                Meldingen nieuwe chatberichten
+            </ion-toggle>
+        </ion-list>
+    </ion-content>
+</ion-view>

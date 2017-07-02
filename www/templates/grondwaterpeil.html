@@ -1,0 +1,12 @@
+<ion-view view-title="Grondwaterpeil">
+  <ion-content ng-controller="GraphCtrl">
+    <div class="card" style="width:90%; margin: auto;">
+      <div class="item item-divider">
+        Grafiek Grondwaterpeil
+      </div>
+      <div class="item item-text-wrap">
+        <canvas id="line" class="chart chart-line" chart-data="data" chart-labels="labels" chart-legend="true" chart-series="series" chart-options="{showTooltips: true}"></canvas>
+      </div>
+    </div>
+  </ion-content>
+</ion-view>

@@ -1,0 +1,13 @@
+{
+  "name": "aquatoon",
+  "app_id": "6697f26e",
+  "gulpStartupTasks": [
+    "sass",
+    "watch"
+  ],
+  "watchPatterns": [
+    "www/**/*",
+    "!www/lib/**/*",
+    "!www/**/*.map"
+  ]
+}
